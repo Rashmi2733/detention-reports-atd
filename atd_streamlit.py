@@ -284,7 +284,7 @@ with tab1:
             st.plotly_chart(fig, use_container_width=True)
 
             # --- Descriptions under Tab 1 Charts ---
-            st.markdown("### Chart Descriptions & Insights")
+            st.markdown("### Explanations")
             st.info(f"""
             * **Graph 1 (Monthly Mean Count):** This shows the average monthly count for **{selected_tech}** across the top {top_n} AORs along with aggregated baseline of all other remaining AORs.
             * **Graph 2 (Monthly MoM % Change):** This shows the month-over-month growth/decline rate percentage for top {top_n} AORs for **{selected_tech}**.
@@ -420,7 +420,7 @@ with tab2:
             st.plotly_chart(fig_aor, use_container_width=True)
 
             # --- Descriptions under Tab 2 Charts ---
-            st.markdown("### Chart Descriptions & Insights")
+            st.markdown("### Explanations")
             st.info(f"""
             * **Graph 1 (Monthly Count):** Shows monthly average counts for every technology in **{selected_aor}**.
             * **Graph 2 (MoM % Growth Rate):** Shows month-over-month percentage change per technology in **{selected_aor}**.
